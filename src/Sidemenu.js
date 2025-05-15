@@ -11,19 +11,27 @@ export default function Sidemenu() {
   };
   return (
     <div className={"Side"} style={sideStyle}>
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
+      <Button>
+        <p>جديدة</p>
+        <span>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+        </span>
+      </Button>
+      <Button>
+        <p>الأكثر قراءة</p>
+        <img src="../public/pexels-pixabay-50594.jpg" alt="flower" />
+      </Button>
+      <Button>
+        <p>مقالات مميزة</p>
+        <span>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
+        </span>
+        <img src="../public/pexels-pixabay-50594.jpg" alt="flower" />
+      </Button>
     </div>
   );
 }

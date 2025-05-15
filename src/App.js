@@ -9,16 +9,16 @@ function App() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div style={{ display: "flex", width: "60%" }}>
           <div style={{ width: "70%" }}>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post
+              number="20"
+              title="أكاديمية ترميز"
+              description="أكاديمية مخصصة لتعليم البرمجة"
+            />
+            <Post
+              title="hello world"
+              description="this is the hello world article"
+            />
+            <Post title="Post 3" description="this is the body of post 3" />
           </div>
           <div style={{ width: "30%" }}>
             <Sidemenu />

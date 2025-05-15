@@ -1,8 +1,9 @@
 import "./button.css";
-export default function Button() {
+export default function Button(props) {
+  console.log(props);
   return (
     <div className={"Button"}>
-      <button>Button Tag</button>
+      <button>{props.children}</button>
     </div>
   );
 }
